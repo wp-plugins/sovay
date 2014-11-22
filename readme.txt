@@ -3,7 +3,7 @@ Contributors: willnorris, factoryjoe, pheadley, kma828
 Tags: Sovay, authentication, login, comments, OpenID  
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: .75b  
+Stable tag: 0.75-beta  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
