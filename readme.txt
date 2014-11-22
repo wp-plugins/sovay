@@ -27,7 +27,7 @@ Three easy steps:
 
 #####Secure your identity  
 1.  [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=https://wordpress.org/plugins/Sovay&callbackbtntext=Return to Sovay Plugin&regrequestor=Sovay Plugin&reglevel=OTP|Voice|Face).  
-1.  You’ll need to provide a username, password and email address.  Your email address is used for password recovery and information that has direct impact on your security.  
+1.  You will need to provide a username, password and email address.  Your email address is used for password recovery and information that has direct impact on your security.  
 1.  Optionally, you can register your phone with Sovay and enable One Time Passcode logins.
 1.  If you like, you might also make a few video recordings and enable high assurance authentication.
 
