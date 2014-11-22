@@ -46,7 +46,7 @@ This plugin follows the [standard WordPress installation method][]:
 
 1. Upload the `Sovay` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Register your Sovay ID at  [https://Sovay.com](https://sovay.com/SovayDash/#/processRegistration?callbackuri=https://wordpress.org/plugins/Sovay&callbackbtntext=Return to Sovay Plugin&regrequestor=Sovay Plugin&reglevel=OTP|Voice|Face) 
+1. Register your Sovay ID at  [https://Sovay.com](https://sovay.com/SovayDash/#/processRegistration?callbackuri=https://wordpress.org/plugins/Sovay&callbackbtntext=ReturntoSovayPlugin&regrequestor=SovayPlugin&reglevel=OTP|Voice|Face) 
 1. Link your Sovay ID through the `Users --> Your Sovay IDs` section 
 
 [standard WordPress installation method]: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins
