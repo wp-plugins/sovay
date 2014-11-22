@@ -3,7 +3,7 @@ Contributors: willnorris, factoryjoe, pheadley, kma828
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: 0.76-beta  
+Stable tag: 0.77-beta  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,14 +56,19 @@ This plugin follows the [standard WordPress installation method][]:
 
 Please email us at support@sovay.com or refer to [Sovay FAQs](http://www.sovay.press/?page_id=846).
 
-==  Screenshots ==  
-1. Users can login with their Sovay ID in place of a traditional username and password
-1. Users can link additional Sovay IDs with their WordPress accounts
+== Screenshots ==  
 
-==  Changelog ==  
-= 0.75b (Nov 10, 2014) =  
+1. Users can login with their Sovay ID in place of a traditional username and password
+2. Users can link additional Sovay IDs with their WordPress accounts
+
+== Changelog ==  
+= 0.75-beta (Nov 10, 2014) =  
+
+= 0.76-beta (Nov 22, 2014) =  
+* Fixed Registration link
 
 == Upgrade Notice ==  
-= 0.75b =
+= 0.75-beta =
+
 
 
