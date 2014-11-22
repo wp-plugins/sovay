@@ -1,6 +1,6 @@
 === Sovay ===
 Contributors: willnorris, factoryjoe, pheadley, kma828  
-Tags: Sovay, authentication, login, comments, OpenID  
+Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party
 Requires at least: 2.8  
 Tested up to: 4.0  
 Stable tag: 0.75-beta  
@@ -12,13 +12,13 @@ Sovay secures your identity keeping your private data private, secures your site
 == Description ==  
 ####Secure Yourself.  Secure Your Sites.
 
-Get control of your identity now.  Get your Sovay ID.  Every time you create an account with a username and password, you create a new web identity.  That’s how you ended up with 25 identities (and 25 passwords).  With Sovay, you get one secure identity.  Your logins are secure, your private data is private and you can use your Sovay ID to access all of your WordPress sites.
+Get control of your identity now.  Get your Sovay ID.  Every time you create an account with a username and password, you create a new web identity.  That is how you ended up with 25 identities (and 25 passwords).  With Sovay, you get one secure identity.  Your logins are secure, your private data is private and you can use your Sovay ID to access all of your WordPress sites.
 
-Once you have secured yourself, secure your site.  Install the Sovay plugin and start using your Sovay ID.  It’s that simple!  In case you didn’t know, your username and password are sent in plain text during the default WordPress login; hackers love plain text.  Using your Sovay ID, your login data is always sent over secure communications.  
+Once you have secured yourself, secure your site.  Install the Sovay plugin and start using your Sovay ID.  It is that simple!  In case you didn not know, your username and password are sent in plain text during the default WordPress login; hackers love plain text.  Using your Sovay ID, your login data is always sent over secure communications.  
 
-Activate Sovay on all of your WordPress sites; the plugin is free.  Then login once with your secure Sovay ID, and you'll have access to all of your WordPress sites with no further authentication hassels.  
+Activate Sovay on all of your WordPress sites; the plugin is free.  Then login once with your secure Sovay ID, and you will have access to all of your WordPress sites with no further authentication hassels.  
 
-Choose your login for each site.  If you want to login with One Time Passcode for some sites, great!  If you want to use your voice or face for other sites, even better!  But remember, it’s silly to protect your passwords with a password.  
+Choose your login for each site.  If you want to login with One Time Passcode for some sites, great!  If you want to use your voice or face for other sites, even better!  But remember, it is silly to protect your passwords with a password.  
 
 **_Your security, your site, your choice!_**
 
@@ -40,9 +40,6 @@ Three easy steps:
 1.  Type in your Sovay ID and click the Add Sovay button.  Now your accounts are linked.
 
 **You can start using your secure Sovay ID to access your WP accounts.**
-
-
-Tags: sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party
 
 == Installation ==  
 This plugin follows the [standard WordPress installation method][]:
