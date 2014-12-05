@@ -1,9 +1,9 @@
 === Sovay ===
-Contributors: veritrix, kma828, willnorris, factoryjoe,   
+Contributors: veritrix, willnorris, factoryjoe,   
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party  
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: 0.80-beta  
+Stable tag: 0.81-beta  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Sovay secures your identity keeping your private data private, secures your site
 
 Get control of your identity now.  Get your Sovay ID.  Every time you create an account with a username and password, you create a new web identity.  That is how you ended up with 25 identities (and 25 passwords).  With Sovay, you get one secure identity.  Your logins are secure, your private data is private and you can use your Sovay ID to access all of your WordPress sites.
 
-Once you have secured yourself, secure your site.  Install the Sovay plugin and start using your Sovay ID.  It is that simple!  In case you didn not know, your username and password are sent in plain text during the default WordPress login; hackers love plain text.  Using your Sovay ID, your login data is always sent over secure communications.  
+Once you have secured yourself, secure your site.  Install the Sovay plugin and start using your Sovay ID.  It is that simple!  In case you did not know, your username and password are sent in plain text during the default WordPress login; hackers love plain text.  Using your Sovay ID, your login data is always sent over secure communications.  
 
 Activate Sovay on all of your WordPress sites; the plugin is free.  Then login once with your secure Sovay ID, and you will have access to all of your WordPress sites with no further authentication hassels.  
 
