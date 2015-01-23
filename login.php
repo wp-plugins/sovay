@@ -144,7 +144,7 @@ function openid_wp_login_form() {
 
 	echo '
 	<p style="margin-bottom: 8px;">
-		<label style="display: block; margin-bottom: 5px;">' . __('Or login using Sovay ID', 'openid') . '<br />
+		<label style="display: block; margin-bottom: 5px;">' . __('Or login using SovayID', 'openid') . '<br />
 		<input type="text" name="openid_identifier" id="openid_identifier" class="input openid_identifier" value="" size="25" tabindex="25" /></label>
 	</p>
 

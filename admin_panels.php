@@ -27,7 +27,7 @@ function openid_admin_panels() {
 //	add_action("load-$hookname", 'openid_style');
 //	todo: will implement controls for forceauth level on login
 	// all users can setup external OpenIDs
-	$hookname =	add_users_page(__('Your Sovay IDs', 'openid'), __('Your Sovay IDs', 'openid'), 'read', 'your_openids', 'openid_profile_panel' );
+	$hookname =	add_users_page(__('Your SovayIDs', 'openid'), __('Your SovayIDs', 'openid'), 'read', 'your_openids', 'openid_profile_panel' );
 	add_action("load-$hookname", create_function('', 'wp_enqueue_script("admin-forms");'));
 	add_action("load-$hookname", 'openid_profile_management' );
 	add_action("load-$hookname", 'openid_style' );
@@ -291,10 +291,10 @@ function openid_profile_panel() {
 
 	<div class="wrap">
 		<form action="<?php printf('%s?page=%s', $_SERVER['PHP_SELF'], $_REQUEST['page']); ?>" method="post">
-			<h2><?php _e('Your Verified Sovay IDs', 'openid') ?></h2>
+			<h2><?php _e('Your Verified SovayIDs', 'openid') ?></h2>
 
-			<p><?php _e('You may associate one or more Sovay IDs with your account.  This will '
-			. 'allow you to login to WordPress with your Sovay ID instead of a username and password.  '
+			<p><?php _e('You may associate one or more SovayIDs with your account.  This will '
+			. 'allow you to login to WordPress with your SovayID instead of a username and password.  '
 			. '<a href="http://www.sovay.com/what/" target="_blank">Learn more...</a>', 'openid')?></p>
 
 		<div class="tablenav">
@@ -343,14 +343,14 @@ function openid_profile_panel() {
 		<form method="post">
 		<table class="form-table">
 			<tr>
-				<td scope="row"><label class="svyLabel" for="openid_identifier"><?php _e('Sovay ID', 'openid') ?></label>
+				<td scope="row"><label class="svyLabel" for="openid_identifier"><?php _e('SovayID', 'openid') ?></label>
 				<input id="openid_identifier" name="openid_identifier" class="inputField" /></td>
 			</tr>
 
 		<?php wp_nonce_field('openid-add_openid'); ?>
 		<tr >
             <td>
-			<input type="submit" class="svyButton" value="<?php _e('Link Sovay ID', 'openid') ?>" />
+			<input type="submit" class="svyButton" value="<?php _e('Link SovayID', 'openid') ?>" />
 			<input type="hidden" name="action" value="add" >
             </td>
 		</tr>
@@ -644,9 +644,9 @@ function openid_profile_management() {
 			if ($userid) {
 				global $error;
 				if ($user->ID == $userid) {
-					$error = __('You already have this Sovay ID!', 'openid');
+					$error = __('You already have this SovayID!', 'openid');
 				} else {
-					$error = __('This Sovay ID is already associated with another user.', 'openid');
+					$error = __('This SovayID is already associated with another user.', 'openid');
 				}
 				return;
 			}
@@ -685,7 +685,7 @@ function openid_profile_management() {
 				$message = __($message, 'openid');
 
 				if (array_key_exists('update_url', $_REQUEST) && $_REQUEST['update_url']) {
-					$message .= '<br />' .  __('<strong>Note:</strong> For security reasons, your profile URL has been updated to match your Sovay ID.', 'openid');
+					$message .= '<br />' .  __('<strong>Note:</strong> For security reasons, your profile URL has been updated to match your SovayID.', 'openid');
 				}
 
 				openid_message($message);
@@ -924,7 +924,7 @@ function openid_wpmu_options() {
 					<label for="openid_required_for_registration">
 						<input type="checkbox" name="openid_required_for_registration" id="openid_required_for_registration" value="1"
 							<?php checked(true, get_site_option('openid_required_for_registration')) ?> />
-						<?php _e('New accounts can only be created with verified Sovay IDs.', 'openid') ?>
+						<?php _e('New accounts can only be created with verified SovayIDs.', 'openid') ?>
 					</label>
 				</td>
 			</tr>
@@ -964,7 +964,7 @@ function openid_general_settings() {
 	<label for="openid_required_for_registration">
 		<input type="checkbox" name="openid_required_for_registration" id="openid_required_for_registration" value="1"
 			<?php checked(true, get_option('openid_required_for_registration')) ?> />
-		<?php _e('New accounts can only be created with verified Sovay IDs.', 'openid') ?>
+		<?php _e('New accounts can only be created with verified SovayIDs.', 'openid') ?>
 	</label>
 	<?php endif; ?>
 
@@ -987,7 +987,7 @@ function openid_discussion_settings() {
 	<label for="openid_enable_commentform">
 		<input type="checkbox" name="openid_enable_commentform" id="openid_enable_commentform" value="1" <?php 
 			echo checked(true, get_option('openid_enable_commentform'));  ?> />
-		<?php _e('Enable Sovay IDs for comments', 'openid') ?>
+		<?php _e('Enable SovayIDs for comments', 'openid') ?>
 	</label>
 	<br />
 
@@ -997,7 +997,7 @@ function openid_discussion_settings() {
 		<label for="openid_no_require_name">
 			<input type="checkbox" name="openid_no_require_name" id="openid_no_require_name" value="1" <?php 
 				echo checked(true, get_option('openid_no_require_name')) ; ?> />
-			<?php _e('Do not require name and e-mail for comments left with a verified Sovay ID', 'openid') ?>
+			<?php _e('Do not require name and e-mail for comments left with a verified SovayID', 'openid') ?>
 		</label>
 		<br />
 		<?php endif; ?>
@@ -1005,7 +1005,7 @@ function openid_discussion_settings() {
 		<label for="openid_enable_approval">
 			<input type="checkbox" name="openid_enable_approval" id="openid_enable_approval" value="1" <?php 
 				echo checked(true, get_option('openid_enable_approval'));  ?> />
-			<?php _e('Always approve comments left with a verified Sovay ID', 'openid'); ?>
+			<?php _e('Always approve comments left with a verified SovayID', 'openid'); ?>
 		</label>
 		<br />
 

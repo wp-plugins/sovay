@@ -104,7 +104,7 @@ function openid_provider_xrds_simple($xrds) {
 
 	if (!empty($services)) {
 		foreach ($services as $index => $service) {
-			$name = 'OpenID Provider Service (' . $index . ')';
+			$name = 'SovayID Provider Service (' . $index . ')';
 			$xrds = xrds_add_service($xrds, 'main', $name, $service, $index);
 		}
 	}
