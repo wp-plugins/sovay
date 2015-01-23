@@ -3,7 +3,7 @@ Contributors: veritrix, willnorris, factoryjoe
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party  
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: 0.85-beta   
+Stable tag: 0.86-beta   
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
