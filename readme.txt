@@ -1,11 +1,11 @@
 === Sovay ===
-Contributors: veritrix, willnorris, factoryjoe,   
+Contributors: veritrix, willnorris, factoryjoe   
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, mfa, mobile, multi-factor, oauth, password, phone, security, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party  
 Requires at least: 2.8  
-Tested up to: 4.0 
-Stable tag: 0.84-beta 
+Tested up to: 4.0  
+Stable tag: 0.85-beta   
 License: GPLv2 or later  
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
 Sovay secures your identity keeping your private data private, secures your site, lets you choose your login style and access your sites with 1 login.
 

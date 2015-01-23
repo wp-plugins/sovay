@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name: Sovay
- * Plugin URI: http://wordpress.org/extend/plugins/Sovay
- * Description: Allows the use of Sovay for account registration, authentication, and commenting.
- * Version: 0.84-beta
- * Author: Veritrix Inc.
- * Author URI: http://www.sovay.press/
- * Text Domain: Sovay
+ * Plugin URI: http://wordpress.org/extend/plugins/Sovay 
+ * Description: Allows the use of Sovay for account registration, authentication, and commenting. 
+ * Version: 0.85-beta 
+ * Author: Veritrix Inc. 
+ * Author URI: http://www.sovay.press/ 
+ * Text Domain: Sovay 
  * License: Dual GPL (http://www.fsf.org/licensing/licenses/info/GPLv2.html) and Modified BSD (http://www.fsf.org/licensing/licenses/index_html#ModifiedBSD)
  */
 
