@@ -26,7 +26,7 @@ Choose your login for each site.  If you want to login with One Time Passcode fo
 Three easy steps:
 
 #####Secure Your Identity  
-1.  [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=https://wordpress.org/plugins/Sovay&callbackbtntext=ReturntoSovayPlugin&regrequestor=SovayPlugin&reglevel=OTP|Voice|Face).  
+1.  [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=http://www.sovay.press/get-started/&callbackbtntext=Next-InstallPlugin&reglevel=Password&nextstepbtn=hide).  
 1.  You will need to provide a username, password and email address.  Your email address is used for password recovery and information that has direct impact on your security.  
 1.  Optionally, you can register your phone with Sovay and enable One Time Passcode logins.
 1.  If you like, you might also make a few video recordings and enable high assurance authentication.
