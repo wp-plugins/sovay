@@ -3,7 +3,7 @@
  * Plugin Name: Sovay
  * Plugin URI: http://wordpress.org/extend/plugins/Sovay 
  * Description: Allows the use of Sovay for account registration, authentication, and commenting. 
- * Version: 0.88-beta
+ * Version: 0.89-beta
  * Author: Veritrix Inc. 
  * Author URI: http://www.sovay.press/ 
  * Text Domain: Sovay 
