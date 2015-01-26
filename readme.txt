@@ -1,9 +1,9 @@
-=== Sovay Secure Identity & Login ===
+=== Sovay Secure Identity/Login ===
 Contributors: veritrix, willnorris, factoryjoe,   
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, logins, mfa, mobile, multi-factor, oauth, password, passwords, phone, security, sign-in, signin, signon, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party  
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: 0.89-beta  
+Stable tag: 0.90-beta  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,7 +46,7 @@ Once you and your sites are Sovay Secure, put Sovay to work.
 
 <ul>
 <li>To learn more about Sovay for WordPress, <a href="http://www.sovay.press" target="_blank">visit sovay.press</a></li>
-<li>To register your secure identity with Sovay, <a href="https://www.sovay.press/get-started" target="_blank">click here</a></li>
+<li>To register your secure identity with Sovay, <a href="http://www.sovay.press/get-started" target="_blank">click here</a></li>
 <li>To secure your Wordpress sites with Sovay, download and install this Sovay plugin</li>
 </ul>
 
@@ -56,25 +56,29 @@ Once you and your sites are Sovay Secure, put Sovay to work.
 1. [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=http://www.sovay.press/get-started/&callbackbtntext=Next-InstallPlugin&reglevel=Password&nextstepbtn=hide).  
 1. You need to provide a username, password and email address. Your email address is used for password recovery and protecting your secure information.  
 1. To login using One Time Passcodes, you can register your mobile phone number with Sovay.
-1. You can also also make a few video recordings if you want to enable high security authentication.
+1. You can also to make a few video recordings if you want to enable high security authentication.
 
 ####Enable Your Site
-<p>The Sovay plugin follows the [standard WordPress installation method][].</p>
+The Sovay plugin follows the [standard WordPress installation method][]:
+
+
 1. Upload the Sovay folder to the <em>/wp-content/plugins/</em> directory
 1. Activate the plugin through the <em>Plugins</em> menu in WordPress
 
 [standard WordPress installation method]: http://codex.wordpress.org/Managing_Plugins#Installing_Plugins 
 
 ####Link Your Accounts
-<p>After you have installed and activated the Sovay plugin, link your WordPress accounts.</p>
+After you have installed and activated the Sovay plugin, link your WordPress accounts.
+
+
 1. Select the Your SovayIDs command on the Users menu. <em>(Users > Your SovayIDs)</em>
-1. Type your SovayID and click the <em>Add Sovay</em> button to link an account.
+1. Type your SovayID and click the <em>Link SovayID</em> button to link an account.
 
 You can then start using your secure SovayID to access your WordPress sites.
  
 == Frequently Asked Questions ==  
 Visit our FAQ page at [Sovay FAQs](http://www.sovay.press/?page_id=846).
-Please email questions and problems to Sovay at support@sovay.com
+<p>Please email questions and problems to Sovay at support@sovay.com</p>
 
 == Screenshots ==
 
