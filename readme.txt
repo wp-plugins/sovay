@@ -3,7 +3,7 @@ Contributors: veritrix, willnorris, factoryjoe,
 Tags: Sovay, sovayid, 2 step authentication, 2-Factor, 2-step, 2-step verification, 2FA, admin, android, authentication, biometric, encryption, iphone, log in, login, logins, mfa, mobile, multi-factor, oauth, password, passwords, phone, security, sign-in, signin, signon, single sign-on, ssl, sso, step-up authentication,  two-factor, two-factor authentication, two-step, wp-admin, OpenID, OAuth, Identity Provider, Relying party  
 Requires at least: 2.8  
 Tested up to: 4.0  
-Stable tag: 0.91-beta  
+Stable tag: 0.92-beta  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,7 +53,7 @@ Once you and your sites are Sovay Secure, put Sovay to work.
 == Installation == 
 
 ####Secure Your Identity with Sovay
-1. [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=http://www.sovay.press/get-started/&amp;callbackbtntext=Next - Secure Your First WordPress Site&amp;reglevel=Password&amp;nextstepbtn=hide).  
+1. [Register with Sovay](https://sovay.com/SovayDash/#/processRegistration?callbackuri=http://www.sovay.press/get-started/&callbackbtntext=Next-SecureYourFirstWordPressSite&reglevel=Password&nextstepbtn=hide).  
 1. You need to provide a username, password and email address. Your email address is used for password recovery and protecting your secure information.  
 1. To login using One Time Passcodes, you can register your mobile phone number with Sovay.
 1. You can also to make a few video recordings if you want to enable high security authentication.
